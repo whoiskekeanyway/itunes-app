@@ -1,0 +1,26 @@
+{
+  "name": "itunes-app",
+  "version": "1.0.0",
+  "description": "Search for music, videos and more on iTunes",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Ogundele Olalekan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "helmet": "^4.3.1",
+    "node-fetch": "^2.6.1"
+  }
+}
