@@ -1,6 +1,6 @@
-# React Express Starter Pack
+# Itunes App
 
-> Create full stack apps with React and Express. Run your client and server with a single command. 
+> Create full stack apps with React and Express. This is Itunes App which you can use to search for any kind of media.
 
 
 ## Quick Start
