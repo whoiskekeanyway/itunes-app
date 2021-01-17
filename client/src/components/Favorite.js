@@ -13,7 +13,6 @@ export default props => {
           <tr>
             <th></th>
             <th>
-              <i class="fa fa-music" aria-hidden="true" />
             </th>
           </tr>
         </thead>

@@ -114,7 +114,7 @@ class Movies extends React.Component {
       title: trackName,
       img: artworkUrl100
     };
-    alert(" Item Added to Favourite")
+    alert(JSON.stringify(item.title + "Added to Favourite"));
 
     this.setState({ favoriteList: [...favoriteList, item] });
 

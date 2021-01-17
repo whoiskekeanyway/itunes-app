@@ -114,7 +114,7 @@ class Music extends React.Component {
       title: artistName,
       img: artworkUrl100
     };
-    alert(" Item Added to Favourite")
+    alert(JSON.stringify(item.title + "Added to Favourite"));
 
     this.setState({ favoriteList: [...favoriteList, item] });
 
